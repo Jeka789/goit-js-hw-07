@@ -75,16 +75,262 @@ ul {
 
 /* ------- TASK-2 ------- */
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery li {
+
+}
+
+.gallery img {
+  width: 520px;
+  height: 100%;
+}
+
+/* ------- TASK-3 ------- */
+
+.form-text {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 136px;
+
+  background-color: #fff;
+}
+
+.inp-brd {
+  width: 360px;
+  height: 40px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.imp-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+/* ------- TASK-4 ------- */
+
+.login-form {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  background-color: #fff;
+}
+
+.lb {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.lb :hover.inp,
+    :focus.inp,
+    :active.inp {
+      border-color: black;
+}
+
+.inp {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin: 8px 0;
 
 
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
 
+.btn-sub {
+  margin-top: 8px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
 
+  background-color: #4e75ff;
 
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
 
+  :hover.btn-sub,
+  :focus.btn-sub,
+  :active.btn-sub {
+    background-color: #6c8cff;
+}
 
+/* ------- TASK-5 ------- */
 
+.widget {
+  border-radius: 8px;
+  padding: 100px 88px;
+  width: 345px;
+  height: 280px;
 
+  background-color: #fff;
+}
 
+.p-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  background-color: #4e75ff;
+}
+
+:hover.change-color,
+:focus.change-color {
+  background-color: #6c8cff;
+}
+
+/* ------- TASK-6 ------- */
+
+.d-cont {
+  border-radius: 8px;
+  padding: 24px;
+  width: 534px;
+  height: 100%;
+
+  background-color: #fff;
+}
+
+.d-form {
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+
+  background-color: #f6f6fe;
+}
+
+.inp-st {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px;
+  width: 150px;
+  height: 40px;
+
+  background-color: #f6f6fe;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  text-align: center;
+}
+
+.btn-c {
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  width: 120px;
+  height: 40px;
+  margin: 0 11px;
+
+  background-color: #4e75ff;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+:hover.btn-c,
+:focus.btn-c,
+:active.btn-c {
+  background-color: #6c8cff;
+}
+
+.btn-d {
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  width: 120px;
+  height: 40px;
+
+  background: #ff4e4e;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+:hover.btn-d,
+:focus.btn-d,
+:active.btn-d {
+  background-color: #ff7070;
+}
+
+.d-plus {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  margin-top: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 100%;
+
+  background-color: #f6f6fe;
+}
 
 
 
